@@ -1,0 +1,26 @@
+<tourism>
+    <country name="India">
+        <state name="Tamil Nadu">
+            <dist name="Chennai" pincode="600000" capital="true" tourism="Marina Beach, Besant Nagar beach"/>
+            <dist name="Madurai" pincode="620000" capital="false" tourism="Meenakshi temple, Park"/>
+        </state>
+        <state name="Kerala">
+            <dist name="Cochin" pincode="404000" capital="false" tourism="Beach, Port"/>
+            <dist name="Trivandrum" pincode="400000" capital="true" tourism="Zoo, temple"/>
+        </state>
+    </country>
+    <country name="USA">
+        <state name="Washington">
+            <dist name="Olympia" pincode="400000" capital="true" tourism="Mountains, Ocean"/>
+            <dist name="Seattle" pincode="420000" capital="false" tourism="Space Needle, Pike Place"/>
+        </state>
+        <state name="New york">
+            <dist name="New York City" pincode="405600" capital="false" tourism="Central Park, Times Square"/>
+            <dist name="Albany" pincode="406900" capital="true" tourism="Wind Farm, Beach"/>
+        </state>
+    </country>
+</tourism>
+
+<!-- Map<Country, Map<State, Map<Dist, List<Deets>>> -->
+
+<!-- Map<country, Map<state, List<Dist>>> -->

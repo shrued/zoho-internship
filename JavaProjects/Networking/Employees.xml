@@ -1,0 +1,32 @@
+<employees>
+    <employee id="111">
+        <firstName>Harry</firstName>
+        <lastName>Beltik</lastName>
+        <location>Kentucky</location>
+    </employee>
+    <employee id="222">
+        <firstName>Thomas</firstName>
+        <lastName>Brody</lastName>
+        <location>New York</location>
+    </employee>
+    <employee id="333">
+        <firstName>Meredith</firstName>
+        <lastName>Grey</lastName>
+        <location>Seattle</location>
+    </employee>
+    <employee id="444">
+        <firstName>Chandler</firstName>
+        <lastName>Bing</lastName>
+        <location>New York</location>
+    </employee>
+    <employee id="555">
+        <firstName>Derek</firstName>
+        <lastName>Shepherd</lastName>
+        <location>Seattle</location>
+    </employee>
+    <employee id="666">
+        <firstName>Alex</firstName>
+        <lastName>Karev</lastName>
+        <location>Seattle</location>
+    </employee>
+</employees>

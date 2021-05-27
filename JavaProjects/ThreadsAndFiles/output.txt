@@ -1,0 +1,4 @@
+Mares eat oats Thread 1
+Does eat oats Thread 1
+Little lambs eat ivy Thread 1
+A kid will eat ivy too Thread 1

@@ -1,0 +1,24 @@
+<allMovies id="Recommendations">
+    <movies>
+        <movie>
+            <title>Blue Velvet</title>
+            <director>David Lynch</director>
+            <released>1986</released>
+        </movie>
+        <movie>
+            <title>Pulp Fiction</title>
+            <director>Quentin Tarantino</director>
+            <released>1994</released>
+        </movie>
+        <movie>
+            <title>Gone Girl</title>
+            <director>David Fincher</director>
+            <released>2014</released>
+        </movie>
+        <movie>
+            <title>The Batman</title>
+            <director>Mat Reeves</director>
+            <released>2022</released>
+        </movie>
+    </movies>
+</allMovies>

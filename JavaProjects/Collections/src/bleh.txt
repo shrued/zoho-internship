@@ -1,0 +1,23 @@
+//        List<List<String>> mapped = map.entrySet().stream()
+//                .filter(c -> c.getValue().equals("India"))
+//                .map(v -> v.getKey()
+//                        .values()
+//                        .stream()
+//                        .collect(Collectors.toList()))
+//                .collect(Collectors.toList());
+//        System.out.println(mapped);
+
+//                .filter(e -> e.getKey()
+//                .keySet()
+//                .stream()
+//                .anyMatch(i -> i.equals("")))
+//                .collect(Collectors.toMap(Map.Entry::getKey, Map.Entry::getValue));
+
+//                .collect(Collectors.toList());
+
+
+//        map.entrySet().stream()
+//                .collect(Collectors.groupingBy(Map.Entry::getValue,
+//                        Collectors.mapping(Map.Entry::getKey, Collectors.toList())))
+//                .entrySet().stream()
+//                .forEach(System.out::println);
