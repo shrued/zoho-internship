@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"https://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+    <constant name = "struts.devMode" value = "true" />
+	
+	<package name="user" namespace="/" extends="struts-default">
+		<action name="run">
+			<result>/run.jsp</result>
+		</action>
+		<action name="ExecuteTask" class="com.execwait.ExecuteAction">
+			<interceptor-ref name="defaultStack"></interceptor-ref>
+			<interceptor-ref name="execAndWait">
+				<param name="delay">500</param>
+				<param name="delaySleepInterval">500</param>
+			</interceptor-ref>
+			<result name="wait">/running.jsp</result>
+			<result name="success">/success.jsp</result>
+		</action>
+	</package>
+
+</struts>
